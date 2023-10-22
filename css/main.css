@@ -549,7 +549,7 @@ body {
 
 .about {
   background-repeat: no-repeat;
-  background-image: url("/img/bitmap.svg");
+  background-image: url("../img/bitmap.svg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -557,7 +557,7 @@ body {
 }
 .about::after {
   background-repeat: no-repeat;
-  background-image: url("/img/shadow.svg");
+  background-image: url("../img/shadow.svg");
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -636,14 +636,14 @@ body {
   width: 740px;
   height: 152px;
   background-repeat: no-repeat;
-  background-image: url(/img/mobilitRow.svg);
+  background-image: url(../img/mobilitRow.svg);
   position: absolute;
   bottom: 0;
   right: 0%;
 }
 .mobility__right::before {
   content: "";
-  background-image: url(/img/sircle_shape.svg);
+  background-image: url(../img/sircle_shape.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -674,7 +674,7 @@ body {
 }
 .better__right::after {
   content: "";
-  background-image: url(/img/betterRow.svg);
+  background-image: url(../img/betterRow.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -686,7 +686,7 @@ body {
 }
 .better__right::before {
   content: "";
-  background-image: url(/img/near_sircle.svg);
+  background-image: url(../img/near_sircle.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

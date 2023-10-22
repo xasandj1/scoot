@@ -1,6 +1,6 @@
 .about {
     background-repeat: no-repeat;
-    background-image: url("/img/bitmap.svg");
+    background-image: url("../img/bitmap.svg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -8,7 +8,7 @@
 
     &::after {
         background-repeat: no-repeat;
-        background-image: url("/img/shadow.svg");
+        background-image: url("../img/shadow.svg");
         background-position: center;
         background-size: cover;
         position: absolute;

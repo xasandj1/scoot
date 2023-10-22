@@ -38,14 +38,14 @@
             width: 740px;
             height: 152px;
             background-repeat: no-repeat;
-            background-image: url(/img/mobilitRow.svg);
+            background-image: url(../img/mobilitRow.svg);
             position: absolute;
             bottom: 0;
             right: 0%;
         }
         &::before {
             content: "";
-            background-image: url(/img/sircle_shape.svg);
+            background-image: url(../img/sircle_shape.svg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
