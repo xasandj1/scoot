@@ -1,0 +1,45 @@
+.footer {
+    background: #333A44;
+    padding: 20px 0;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__navigate {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        &:nth-child(2) {
+            margin: 32px;
+
+        }
+
+        &:nth-child(1) {
+            margin-left: 52px;
+
+        }
+    }
+
+    &__link {
+        color: $dimGrey;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    &__icn {
+        margin-left: 24px;
+    }
+}

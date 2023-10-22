@@ -1,0 +1,64 @@
+.near {
+    margin-top: 100px;
+    position: relative;
+}
+
+.near__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.near__left::after {
+    content: "";
+    background-image: url(/img/betterRow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 708px;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    top: -20%;
+    left: -21%;
+}
+
+.near__left::before {
+    content: "";
+    background-image: url(/img/near_sircle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 445px;
+    position: absolute;
+    left: 0;
+
+}
+
+.near-city__img {
+    border-radius: 50%;
+}
+
+.near__title {
+    color: $darkNavy;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    max-width: 445px;
+    width: 100%;
+}
+
+.near__txt {
+    color: $dimGrey;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 445px;
+    width: 100%;
+    margin-top: 24;
+    margin-bottom: 40px;
+}

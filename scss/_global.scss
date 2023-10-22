@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1,h2,h3,h4{
+  margin: unset;
+}
+
+body {
+  margin: 0;
+  background-color: $main;
+  color: #575757;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Space Mono";
+  height: 100%;
+}
+
+.font2 {
+  font-family: "Lexend Deca";
+}
+
+.container {
+  max-width: 1150px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+*::selection {
+  color: $primary;
+  background: #ffff;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary;
+  border-radius: 10px;
+}

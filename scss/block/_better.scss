@@ -1,0 +1,66 @@
+.better {
+    margin-top: 100px;
+    position: relative;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__right {
+        &::after {
+            content: "";
+            background-image: url(/img/betterRow.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            left: -40px;
+            top: 0px;
+            width: 465px;
+            height: 195px;
+        }
+
+        &::before {
+            content: "";
+            background-image: url(/img/near_sircle.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100px;
+            height: 445px;
+            position: absolute;
+            left: 0;
+        }
+    }
+
+    &__img {
+        border-radius: 50%;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        color: $darkNavy;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.143px;
+        max-width: 445px;
+        width: 100%;
+    }
+
+    &__txt {
+        color: $dimGrey;
+        font-family: $fontLexend;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        max-width: 445px;
+        width: 100%;
+    }
+}

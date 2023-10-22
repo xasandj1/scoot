@@ -1,0 +1,35 @@
+.main_header {
+  padding: 22px 0;
+}
+
+.main_header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_header__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.main_header__list {
+  margin-left: 58px;
+  display: flex;
+  align-items: center;
+}
+
+.main_header__item:not(:first-child) {
+  margin-left: 32px;
+}
+
+.main_header__btn {
+  @include btn
+}
+
+.main_header__link {
+  color: #939caa;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+}

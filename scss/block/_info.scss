@@ -1,0 +1,34 @@
+.info {
+    position: relative;
+    margin-top: 160px;
+}
+
+.info__container {
+    display: flex;
+    align-items: center;
+}
+
+.info__title {
+    color: $darkNavy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+}
+
+.info__txt {
+    color: $dimGrey;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 350px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.line_img {
+    position: absolute;
+    top: 15%;
+    z-index: -1;
+}

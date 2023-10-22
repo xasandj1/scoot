@@ -1,0 +1,59 @@
+.values {
+    margin-top: 100px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title {
+        color: $darkNavy;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.143px;
+    }
+
+    &__cards {
+        margin-top: 85px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    &__info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        &_title {
+            color: $darkNavy;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: -1.071px;
+            margin-top: 32px;
+        }
+
+        &_txt {
+            color: #939CAA;
+            text-align: center;
+            font-family: Lexend Deca;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            max-width: 350px;
+            width: 100%;
+            margin-bottom: 27px;
+        }
+    }
+}

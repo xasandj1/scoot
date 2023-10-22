@@ -1,0 +1,18 @@
+@mixin btn {
+    color: $main;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 14px 47px;
+    cursor: pointer;
+    transition: all .4s ease;
+    display: inline-block;
+    border: 1px solid $primary;
+    background: $primary;
+    
+    &:hover{
+        background: transparent;
+        color: $primary;
+
+    }
+}

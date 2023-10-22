@@ -1,0 +1,64 @@
+.mobility {
+    margin-top: 100px;
+    position: relative;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        color: $darkNavy;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.143px;
+        max-width: 445px;
+    }
+
+    &__txt {
+        color: $dimGrey;
+        font-family: $fontLexend;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        max-width: 445px;
+        margin-top: 24px;
+    }
+
+    &__right {
+        &::after {
+            content: "";
+            width: 740px;
+            height: 152px;
+            background-repeat: no-repeat;
+            background-image: url(/img/mobilitRow.svg);
+            position: absolute;
+            bottom: 0;
+            right: 0%;
+        }
+        &::before {
+            content: "";
+            background-image: url(/img/sircle_shape.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100px;
+            height: 445px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        
+    }
+
+    &__img {
+        border-radius: 50%;
+    }
+}

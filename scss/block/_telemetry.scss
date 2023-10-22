@@ -1,0 +1,75 @@
+.telemetry {
+    margin-top: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.telemetry__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.telemetry__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}   
+
+
+.telemetry__title {
+    color: $darkNavy;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    max-width: 445px;
+    width: 100%;
+}
+
+.telemetry__txt {
+    color: $dimGrey;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 445px;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.telemetry__btn {
+    @include btn
+}
+.telemetry__right{
+    display: flex;
+}
+.telemetry__right::after {
+    content: "";
+    background-image: url(/img/telemetry_shape.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 785px;
+    height: 160px;
+    position: absolute;
+    top: 15%;
+    right: -22%;
+}
+
+.telemetry__right::before {
+    content: "";
+    background-image: url(/img/sircle_shape.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 445px;
+    position: absolute;
+    right: 0;
+}
+
+.telemetry-img {
+    border-radius: 50%;
+}
