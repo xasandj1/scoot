@@ -1,0 +1,72 @@
+.join {
+    margin: 100px 0;
+    position: relative;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__title {
+        color: $darkNavy;
+        font-family: Space Mono;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.143px;
+        max-width: 445px;
+        width: 100%;
+    }
+
+    &__txt {
+        color: $dimGrey;
+        max-width: 445px;
+        width: 100%;
+        font-family: $fontLexend ;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    &__btn {
+        @include btn
+    }
+
+    &__left {
+        &::after {
+            content: "";
+            background-image: url(../img/telemetry_shape.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 785px;
+            height: 160px;
+            position: absolute;
+            bottom: 0;
+            right: 0%;
+        }
+
+        &::before {
+            content: "";
+            background-image: url(../img/join_sircle.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 110px;
+            height: 445px;
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    &__img {
+        border-radius: 50%;
+    }
+}

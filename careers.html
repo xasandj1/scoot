@@ -1,32 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" type="image/x-icon" href="./img/android-chrome-512x512.png">
+    <link rel="icon" type="image/x-icon" href="./img/android-chrome-192x192.png">
+    <link rel="icon" type="image/x-icon" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="./img/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
     <title>Document</title>
 </head>
+
 <body>
-    <header class="main_header">
-        <div class="container main_header__container">
-          <nav class="main_header__navigation">
-            <a class="main_header__logo" href="/index.html">
-              <img class="main_header__img" src="./img/logo.svg" alt="logo" />
-            </a>
-  
-            <ul class="main_header__list">
-              <li class="main_header__item">
-                <a class="main_header__link" href="./about.html">About</a>
-              </li>
-              <li class="main_header__item">
-                <a class="main_header__link" href="#">Location</a>
-              </li>
-              <li class="main_header__item">
-                <a class="main_header__link" href="#">Careers</a>
-              </li>
-            </ul>
-          </nav>
-          <button type="button" class="main_header__btn">Get Scootin</button>
+    <div class="wrapper">
+        <header class="main_header">
+            <div class="container main_header__container">
+                <nav class="main_header__navigation">
+                    <a class="main_header__logo" href="./index.html">
+                        <img class="main_header__img" src="./img/logo.svg" alt="logo" />
+                    </a>
+
+                    <ul class="main_header__list">
+                        <li class="main_header__item">
+                            <a class="main_header__link" href="./about.html">About</a>
+                        </li>
+                        <li class="main_header__item">
+                            <a class="main_header__link" href="#">Location</a>
+                        </li>
+                        <li class="main_header__item">
+                            <a class="main_header__link" href="./careers.html">Careers</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="main_header__btn">Get Scootin</button>
+            </div>
+        </header>
+
+        <section class="career">
+            <img src="./img/careers.svg" alt="" class="career__img">
+        </section>
+
+        <section class="join">
+            <div class="container join__container">
+                <div class="join__left">
+                    <h2 class="join__title">Care to join our mission?</h2>
+                    <p class="join__txt">We’re always looking for ambitious individuals to help us on our journey. If
+                        you’re
+                        passionate about our mission to provide clean, accessible transport to improve urban living we
+                        want to hear from you!</p>
+                    <button class="join__btn">Say Hello</button>
+                </div>
+                <div class="join__left">
+                    <img src="./img/join.svg" alt="join" class="join__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="us">
+            <div class="container us__container">
+                <div class="us__top">
+                    <h2 class="us__title">Why join us?</h2>
+                </div>
+                <div class="us__bottom">
+                    <div class="us__cards">
+                        <img src="./img/tech.svg" alt="tech">
+                        <div class="us__info">
+                            <h2 class="us__info_title">Our tech</h2>
+                            <p class="us__info_txt">We’re using cutting edge technology to drive accessible urban
+                                transportation forward. Our fully electric scooters are a joy to ride!</p>
+                        </div>
+                    </div>
+                    <div class="us__cards">
+                        <img src="./img/integrety.svg" alt="tech">
+                        <div class="us__info">
+                            <h2 class="us__info_title">Our integrity</h2>
+                            <p class="us__info_txt">We are fully committed to deliver a great yet safe, sustainable
+                                micro-mobility experience in every city we serve.</p>
+                        </div>
+                    </div>
+                    <div class="us__cards">
+                        <img src="./img/community.svg" alt="tech">
+                        <div class="us__info">
+                            <h2 class="us__info_title">Our community</h2>
+                            <p class="us__info_txt">We support every community we serve. All workers are paid a living
+                                wage based on their location and are Scoot employees.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="brashure">
+            <div class="container brashure__container">
+                <div class="brashure__cards">
+                    <div class="brashure__info">
+                        <div class="brashure__manager">
+                            <h3 class="brashure__title">General Manager</h3>
+                            <p class="brashure__txt">Jakarta, Indonesia</p>
+                        </div>
+                        <button class="brashure__btn">Apply</button>
+                    </div>
+                    <div class="brashure__info">
+                        <div class="brashure__manager">
+                            <h3 class="brashure__title">UI/UX Designer </h3>
+                            <p class="brashure__txt">Yokohama, Japan</p>
+                        </div>
+                        <button class="brashure__btn">Apply</button>
+                    </div>
+                    <div class="brashure__info">
+                        <div class="brashure__manager">
+                            <h3 class="brashure__title">Blog Content Copywriter</h3>
+                            <p class="brashure__txt">New York, United States</p>
+                        </div>
+                        <button class="brashure__btn">Apply</button>
+                    </div>
+                    <div class="brashure__info">
+                        <div class="brashure__manager">
+                            <h3 class="brashure__title">Graphic Designer</h3>
+                            <p class="brashure__txt">New York, United States</p>
+                        </div>
+                        <button class="brashure__btn">Apply</button>
+                    </div>
+                    <div class="brashure__info">
+                        <div class="brashure__manager">
+                            <h3 class="brashure__title">Fleet Supervisor</h3>
+                            <p class="brashure__txt">Jakarta, Indonesia</p>
+                        </div>
+                        <button class="brashure__btn">Apply</button>
+                    </div>
+                    <div class="brashure__info">
+                        <div class="brashure__manager">
+                            <h3 class="brashure__title">UX Analyst</h3>
+                            <p class="brashure__txt">London, United Kingdom</p>
+                        </div>
+                        <button class="brashure__btn">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container footer__container">
+            <nav class="footer__navigate">
+                <a href="./index.html" class="footer__logo"><img src="./img/scoot__logo.svg" alt="Logo"></a>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="./about.html" class="footer__link">About</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Location</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                </ul>
+            </nav>
+            <div class="footer__icons">
+                <a href="#" class="footer__icn"><img src="./img/footer_facebook.svg" alt="facebook"></a>
+                <a href="#" class="footer__icn"><img src="./img/footer_twiter.svg" alt="twitter"></a>
+                <a href="#" class="footer__icn"><img src="./img/footer_insta.svg" alt="insta"></a>
+            </div>
         </div>
-      </header>
+    </footer>
 </body>
+
 </html>
