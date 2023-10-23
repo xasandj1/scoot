@@ -482,7 +482,7 @@ body {
 
 .hero {
   background-repeat: no-repeat;
-  background-image: url("/img/hero-bg.jpg");
+  background-image: url("../img/hero-bg.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -503,7 +503,7 @@ body {
   width: 186px;
   height: 62px;
   background-repeat: no-repeat;
-  background-image: url("/img/hero_dots.svg");
+  background-image: url("../img/hero_dots.svg");
   position: absolute;
   right: 0;
   bottom: 24%;
@@ -541,7 +541,7 @@ body {
   width: 460px;
   height: 152px;
   background-repeat: no-repeat;
-  background-image: url("/img/hero_arrow.svg");
+  background-image: url("../img/hero_arrow.svg");
   position: absolute;
   top: 40px;
   left: 112%;
@@ -1036,7 +1036,7 @@ body {
 
 .telemetry__right::after {
   content: "";
-  background-image: url(/img/telemetry_shape.svg);
+  background-image: url(../img/telemetry_shape.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1049,7 +1049,7 @@ body {
 
 .telemetry__right::before {
   content: "";
-  background-image: url(/img/sircle_shape.svg);
+  background-image: url(../img/sircle_shape.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1083,7 +1083,7 @@ body {
 
 .near__left::after {
   content: "";
-  background-image: url(/img/betterRow.svg);
+  background-image: url(../img/betterRow.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1098,7 +1098,7 @@ body {
 
 .near__left::before {
   content: "";
-  background-image: url(/img/near_sircle.svg);
+  background-image: url(../img/near_sircle.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1164,7 +1164,7 @@ body {
   margin-left: 18px;
 }
 .scoot .scoot__right::after {
-  background: url(/img/footer_shape.svg) no-repeat center/cover;
+  background: url(../img/footer_shape.svg) no-repeat center/cover;
   position: absolute;
   content: "";
   width: 430px;
@@ -1173,7 +1173,7 @@ body {
   bottom: 0;
 }
 .scoot .scoot__right::before {
-  background: url(/img/footer_shape.svg) no-repeat center/cover;
+  background: url(../img/footer_shape.svg) no-repeat center/cover;
   position: absolute;
   content: "";
   width: 430px;

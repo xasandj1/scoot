@@ -47,7 +47,7 @@
 }
 .telemetry__right::after {
     content: "";
-    background-image: url(/img/telemetry_shape.svg);
+    background-image: url(../img/telemetry_shape.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -60,7 +60,7 @@
 
 .telemetry__right::before {
     content: "";
-    background-image: url(/img/sircle_shape.svg);
+    background-image: url(../img/sircle_shape.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

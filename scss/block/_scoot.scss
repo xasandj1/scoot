@@ -27,7 +27,7 @@
     .scoot__right {
 
         &::after {
-            background: url(/img/footer_shape.svg) no-repeat center/cover;
+            background: url(../img/footer_shape.svg) no-repeat center/cover;
             position: absolute;
             content: "";
             width: 430px;
@@ -38,7 +38,7 @@
 
         &::before {
 
-            background: url(/img/footer_shape.svg) no-repeat center/cover;
+            background: url(../img/footer_shape.svg) no-repeat center/cover;
             position: absolute;
             content: "";
             width: 430px;
