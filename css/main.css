@@ -420,6 +420,10 @@ p {
   margin: unset;
 }
 
+button {
+  cursor: pointer;
+}
+
 .main_header {
   padding: 22px 0;
 }
